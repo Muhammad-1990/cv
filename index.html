@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Ahmod - CV</title>
+    <meta name="description" content="CV of Muhammad Ahmod, Senior Software Engineer and Azure Expert">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.5;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            max-width: 793px; /* A4 width in pixels (210mm at 96 DPI) */
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 10px; /* Reduced from default */
+        }
+        .header-left {
+            flex: 1;
+        }
+        .header-right {
+            flex: 1;
+            text-align: right;
+        }
+        h1 {
+            color: #2c3e50;
+            margin: 0;
+            font-size: 24px; /* Reduced from 28px */
+        }
+        h2 {
+            color: #2c3e50;
+            font-size: 18px; /* Reduced from 20px */
+            border-bottom: 1px solid #2c3e50; /* Thinner border */
+            padding-bottom: 3px; /* Reduced from 5px */
+            margin-top: 15px; /* Reduced from 20px */
+        }
+        h3 {
+            color: #2c3e50;
+            font-size: 16px; /* Reduced from 18px */
+            margin-bottom: 3px; /* Reduced from 5px */
+        }
+        p, ul {
+            margin: 3px 0; /* Reduced from 5px */
+            color: #333;
+            font-size: 14px; /* Added to reduce overall text size */
+        }
+        ul {
+            padding-top: 4px; /* Reduced from 8px */
+            padding-left: 15px; /* Reduced from 20px */
+        }
+        .job {
+            margin-bottom: 10px; /* Reduced from 15px */
+        }
+        .job p { font-style: italic; color: #666; }
+        
+        .certifications ul {
+            columns: 2;
+            -webkit-columns: 2;
+            -moz-columns: 2;
+        }
+
+        /* Mobile-specific styles */
+        @media screen and (max-width: 600px) {
+            .header {
+                flex-direction: column; /* Stack columns on mobile */
+                align-items: flex-start; /* Align left for consistency */
+            }
+            .header-right {
+                text-align: left; /* Switch from right-align to left-align */
+                margin-top: 10px; /* Add space between stacked sections */
+            }
+            .container {
+                padding: 15px; /* Slightly less padding on mobile */
+                max-width: 100%; /* Full width on small screens */
+            }
+        }
+
+        /* Print-specific styles */
+        @media print {
+            body {
+                padding: 0;
+                background-color: #fff;
+            }
+            .container {
+                padding: 0;
+                margin: 0;
+                box-shadow: none;
+                border-radius: 0;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-left">
+                <h1>Muhammad Ahmod</h1>
+                <p>Senior Engineer | Solutions Architect | Team Lead</p>
+            </div>
+            <div class="header-right">
+                <p>+27 81 589 3805 (GMT2+) | m.ahmod@live.co.za<br>Cape Town, South Africa</p>
+            </div>
+        </div>
+
+        <div class="summary">
+            <h2>Summary</h2>
+            <p>Results-driven Senior Software Engineer with over 10 years of experience architecting scalable, high-performance solutions in C#, .NET Core, and Azure. I excel at modernizing legacy systems, optimizing workflows, and leading cross-functional teams to deliver innovative, secure, and reliable applications. With 10 Microsoft certifications, including Azure Solutions Architect Expert, I bring deep technical expertise and a proven track record of driving efficiency—such as slashing deployment times by 90% and boosting app performance by 45%. Passionate about mentoring developers, fostering collaboration, and contributing to open-source projects to advance technical excellence.</p>
+            <ul>
+                <li>gist.github.com/Muhammad-1990</li>
+                <li>linkedin.com/in/muhammadahmod</li>
+                <li>learn.microsoft.com/en-us/users/muhammadahmod/transcript/d9kjes20xkjolwj</li>
+            </ul>
+        </div>
+
+        <div class="experience">
+            <h2>Experience</h2>
+            <div class="job">
+                <h3>Senior Software Engineer Team Lead</h3>
+                <p>February 2019 - Present | Novation Technologies Pty Ltd | Cape Town, South Africa</p>
+                <ul>
+                    <li>Led migration of legacy .NET/VB.NET apps to .NET Core, boosting scalability with Azure.</li>
+                    <li>Overhauled Azure DevOps pipelines from TFS, slashing deployment time by 90%.</li>
+                    <li>Mentored team to deliver high-quality, secure solutions aligned with business goals.</li>
+                    <li>Developed white-label payment gateway with DataCash and JudoPay integrations.</li>
+                    <li>Enhanced app performance by 45% through code optimization and TLS security upgrades.</li>
+                    <li>Guided team in adopting best practices, improving system reliability.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Senior C# .NET Developer</h3>
+                <p>February 2017 - January 2019 | AWCA Human Capital | Cape Town, South Africa</p>
+                <ul>
+                    <li>Built API and SFTP integration with Barclays Faster Payment System, cutting processing time by 95%.</li>
+                    <li>Designed real-time data interfaces, ensuring accuracy across platforms.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Intermediate C# Developer</h3>
+                <p>February 2015 - January 2017 | Kube Services - Cedar Connect | Cape Town, South Africa</p>
+                <ul>
+                    <li>Created C# CRM plugins, increasing lead conversion rates by 60%.</li>
+                    <li>Refactored data sync services for real-time updates and scalability.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="certifications">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Microsoft Certified: Azure Solutions Architect Expert</li>
+                <li>Microsoft Certified: Azure Administrator Associate</li>
+                <li>Microsoft Certified: Azure Network Engineer Associate</li>
+                <li>Microsoft Certified: Azure Virtual Desktop Specialty</li>
+                <li>Microsoft Certified: Azure Data Fundamentals</li>
+                <li>Microsoft Certified: Azure AI Fundamentals</li>
+                <li>Microsoft Certified: Azure Fundamentals</li>
+                <li>Microsoft Certified Professional</li>
+                <li>Microsoft® Certified Professional Developer: ASP.NET Developer 3.5</li>
+                <li>Microsoft® Certified Technology Specialist: .NET Framework 3.5, ASP.NET Applications</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
