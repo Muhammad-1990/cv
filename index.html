@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,6 +16,7 @@
             margin: 0 auto;
             background-color: #f4f4f4;
         }
+
         .container {
             background-color: #fff;
             padding: 20px;
@@ -22,50 +24,75 @@
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
             max-width: 793px;
         }
+
         .header {
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
-            margin-bottom: 10px;
+            margin-bottom: -10px;
         }
+
         .header-left {
             flex: 1;
         }
+
         .header-right {
             flex: 1;
             text-align: right;
         }
+
         h1 {
             color: #2c3e50;
             margin: 0;
             font-size: 24px;
         }
+
         h2 {
             color: #2c3e50;
             font-size: 18px;
             border-bottom: 1px solid #2c3e50;
             padding-bottom: 3px;
-            margin-top: 10px;
+            margin-top: 5px;
         }
+
         h3 {
             color: #2c3e50;
             font-size: 16px;
             margin-bottom: 3px;
         }
-        p, ul {
+
+        h4{
+            font-size: 12px;
+            margin: 6px 0;
+        }
+
+        p,
+        ul {
             margin: 3px 0;
             color: #333;
             font-size: 12px;
         }
+
         ul {
             padding-top: 4px;
             padding-left: 15px;
         }
+
         .job {
             margin-bottom: 10px;
         }
-        .job .details { color: #666; font-style: italic; font-size: 12px; }
-        .job .skills { color: #666; font-size: 12px; }
+
+        .job .details {
+            color: #666;
+            font-style: italic;
+            font-size: 12px;
+        }
+
+        .job .skills {
+            color: #666;
+            font-size: 12px;
+        }
+
         .certifications ul {
             columns: 2;
             -webkit-columns: 2;
@@ -77,25 +104,30 @@
                 flex-direction: column;
                 align-items: flex-start;
             }
+
             .header-right {
                 text-align: left;
                 margin-top: 10px;
             }
+
             .container {
                 padding: 15px;
                 max-width: 100%;
             }
+
             .certifications ul {
                 columns: 1;
                 -webkit-columns: 1;
                 -moz-columns: 1;
             }
         }
+
         @media print {
             body {
                 padding: 0;
                 background-color: #fff;
             }
+
             .container {
                 padding: 0;
                 margin: 0;
@@ -106,6 +138,7 @@
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <div class="header">
@@ -114,13 +147,19 @@
                 <p>Senior Engineer | Solutions Architect | Team Lead</p>
             </div>
             <div class="header-right">
-                <p>+27 81 589 3805 (GMT2+) | m.ahmod@live.co.za<br>Cape Town, South Africa<br>gist.github.com/Muhammad-1990</p>
+                <p>+27 81 589 3805 (GMT2+) | m.ahmod@live.co.za<br>Cape Town, South Africa<br>gist.github.com/Muhammad-1990<br>linkedin.com/in/muhammad-ahmod/</p>
             </div>
         </div>
 
         <div class="summary">
             <h2>Summary</h2>
-            <p>Proven Senior Software Engineer with over a decade of experience architecting scalable, high-performance solutions in C#, .NET Core, and Azure. I excel at modernizing legacy systems, optimizing workflows, and leading cross-functional teams to deliver innovative, secure, and reliable applications. With 10 Microsoft certifications, including Azure Solutions Architect Expert, I bring deep technical expertise and a proven track record of driving efficiency—such as slashing deployment times by 90% and boosting app performance by 45%. Passionate about mentoring developers, fostering collaboration, and contributing to open-source projects to advance technical excellence.</p>
+            <p>Proven Senior Software Engineer with over a decade of experience architecting scalable, high-performance
+                solutions in C#, .NET Core, and Azure. I excel at modernizing legacy systems, optimizing workflows, and
+                leading cross-functional teams to deliver innovative, secure, and reliable applications. With 10
+                Microsoft certifications, including Azure Solutions Architect Expert, I bring deep technical expertise
+                and a proven track record of driving efficiency—such as slashing deployment times by 90% and boosting
+                app performance by 45%. Passionate about mentoring developers, fostering collaboration, and contributing
+                to open-source projects to advance technical excellence.</p>
         </div>
 
         <div class="experience">
@@ -128,33 +167,46 @@
             <div class="job">
                 <h3>Senior Software Engineer Team Lead</h3>
                 <p class="details">February 2019 - Present | Novation Technologies Pty Ltd | Cape Town, South Africa</p>
-                <p class="skills">[ System Design | DevOps | CI/CD | Microservices | Docker | EventSourcing | GRPC | RabbitMQ | Redis ]</p>
+                <p class="skills"><strong> System Design | DevOps | CI/CD | Microservices | Docker | Event Sourcing | GRPC |
+                    RabbitMQ | Redis </strong></p>
                 <ul>
-                    <li>Directed migration of .NET Framework apps to .NET Core microservices with Docker, boosting scalability on Azure.</li>
+                    <li>Directed migration of .NET Framework apps to .NET Core microservices with Docker, boosting
+                        scalability on Azure.</li>
                     <li>Revamped Azure DevOps CI/CD pipelines from TFS, slashing deployment time by 90%.</li>
-                    <li>Mentored team in system design, delivering secure, high-quality solutions aligned with business goals.</li>
-                    <li>Architected a payment gateway with DataCash, JudoPay, Barclays, and SWIFT, using GRPC and RabbitMQ for reliable transactions.</li>
-                    <li>Enhanced performance by 45% via code optimization, TLS upgrades, Redis caching, and EventSourcing.</li>
+                    <li>Mentored team in system design, delivering secure, high-quality solutions aligned with business
+                        goals.</li>
+                    <li>Architected a payment gateway with DataCash, JudoPay, Barclays, and SWIFT, using GRPC and
+                        RabbitMQ for reliable transactions.</li>
+                    <li>Enhanced performance by 45% via code optimization, TLS upgrades, Redis caching, and
+                        EventSourcing.</li>
                 </ul>
             </div>
             <div class="job">
                 <h3>Senior C# .NET Developer</h3>
                 <p class="details">February 2017 - January 2019 | AWCA Human Capital | Cape Town, South Africa</p>
-                <p class="skills">[ .NET Core | C# | Node.js | JavaScript | TypeScript | Angular | TFS | Git ]</p>
+                <p class="skills"><strong>.NET Core | C# | Node.js | JavaScript | TypeScript | Angular | TFS | Git </strong></p>
                 <ul>
-                    <li>Architected and implemented a high-performance API and SFTP integration with Barclays Faster Payment System using .NET Core and C#, slashing transaction processing times by 95% and enhancing operational efficiency.</li>
-                    <li>Crafted and packaged NuGet interfaces, ensuring seamless data accuracy and synchronization across distributed systems.</li>
-                    <li>Leveraged Node.js to streamline backend processes, improving system responsiveness and supporting scalable front-end integrations.</li>
-                    <li>Orchestrated version control and CI/CD workflows with TFS and Git, accelerating development cycles and ensuring robust code quality.</li>
+                    <li>Architected and implemented a high-performance API and SFTP integration with Barclays Faster
+                        Payment System using .NET Core and C#, slashing transaction processing times by 95% and
+                        enhancing operational efficiency.</li>
+                    <li>Crafted and packaged NuGet interfaces, ensuring seamless data accuracy and synchronization
+                        across distributed systems.</li>
+                    <li>Leveraged Node.js to streamline backend processes, improving system responsiveness and
+                        supporting scalable front-end integrations.</li>
+                    <li>Orchestrated version control and CI/CD workflows with TFS and Git, accelerating development
+                        cycles and ensuring robust code quality.</li>
                 </ul>
             </div>
             <div class="job">
                 <h3>Intermediate C# Developer</h3>
-                <p class="details">February 2015 - January 2017 | Kube Services - Cedar Connect | Cape Town, South Africa</p>
-                <p class="skills">[ .NET Framework | MVC | C# | JavaScript | Windows Server | IIS | RabbitMQ ]</p>
+                <p class="details">February 2015 - January 2017 | Kube Services - Cedar Connect | Cape Town, South
+                    Africa</p>
+                <p class="skills"><strong> .NET Framework | MVC | C# | JavaScript | Windows Server | IIS | RabbitMQ </strong></p>
                 <ul>
-                    <li>Developed and deployed Microsoft CRM 2015 plugins in C#, increasing lead accuracy and conversion rates by 60%.</li>
-                    <li>Revamped data sync services for real-time updates, boosting throughput by 300%+, cutting memory usage, resolving performance bottlenecks, and slashing onboarding wait times.</li>
+                    <li>Developed and deployed Microsoft CRM 2015 plugins in C#, increasing lead accuracy and conversion
+                        rates by 60%.</li>
+                    <li>Revamped data sync services for real-time updates, boosting throughput by 300%+, cutting memory
+                        usage, resolving performance bottlenecks, and slashing onboarding wait times.</li>
                 </ul>
             </div>
         </div>
@@ -180,6 +232,115 @@
                 <li>Prosci® Certified Change Practitioner</li>
             </ul>
         </div>
+
+        <div class="projects">
+            <h2>Projects</h2>
+
+            <h3>Currency Converter Enhancement</h3>
+
+            <h4>Challenge:</h4>
+            <p>In a highly competitive fintech landscape, I identified and tackled critical flaws in an existing
+                currency converter tool:</p>
+            <ul>
+                <li><strong>Poor User Experience:</strong> An unintuitive UI frustrated users and reduced engagement.
+                </li>
+                <li><strong>Performance Bottlenecks:</strong> Slow startup and calculation speeds caused delays.</li>
+                <li><strong>Outdated Data:</strong> Stale exchange rates undermined reliability and trust.</li>
+            </ul>
+
+            <h4>Solution:</h4>
+            <p>As the lead developer, I architected and executed a comprehensive overhaul, leveraging advanced
+                technologies and innovative strategies:</p>
+            <ul>
+                <li><strong>Modern Tech Stack:</strong>
+                    <ul>
+                        <li>Built a real-time, bi-directional conversion engine using <strong>C#</strong>,
+                            <strong>JavaScript</strong>, and <strong>AngularJS</strong>.</li>
+                        <li>Implemented <strong>fixed caching policies</strong> to deliver up-to-the-minute exchange
+                            rates, enhancing data freshness.</li>
+                    </ul>
+                </li>
+                <li><strong>Performance Optimization:</strong>
+                    <ul>
+                        <li>Streamlined backend processes to slash startup and calculation times.</li>
+                        <li>Refined the UI with a <strong>user-centric design</strong>, eliminating manual steps and
+                            minimizing friction.</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h4>Impact:</h4>
+            <p>My enhancements transformed the tool into a scalable, revenue-generating asset:</p>
+            <ul>
+                <li><strong>Modular Architecture:</strong> Designed a loosely coupled, reusable component, seamlessly
+                    integrated into multiple web applications.</li>
+                <li><strong>Revenue Growth:</strong> Enabled deployment across white-label platforms, unlocking new
+                    revenue streams.</li>
+                <li><strong>User Engagement:</strong> Boosted <strong>click-through rates</strong> by
+                    <strong>25%</strong> through UX optimization (amplified by influencer partnerships).</li>
+                <li><strong>Efficiency Gains:</strong> Simplified configuration for content creators with intuitive
+                    default-value settings.</li>
+                <li><strong>Performance Leap:</strong> Reduced startup time by <strong>40%</strong> and achieved a
+                    <strong>4.5/5-star</strong> user satisfaction rating.</li>
+            </ul>
+
+
+
+            <h3>Exchange Rate Update Service Revamp</h3>
+
+            <h4>Challenge:</h4>
+            <p>Overhauled an outdated exchange rate updater service struggling with unreliable data feeds:</p>
+            <ul>
+                <li><strong>API Instability:</strong> Frequent failures from the primary provider disrupted real-time
+                    updates.</li>
+                <li><strong>Performance Lag:</strong> Lack of timeout handling caused delays and system hangs.</li>
+                <li><strong>Scalability Gaps:</strong> The service couldn’t adapt to growing demand or failover
+                    scenarios.</li>
+            </ul>
+
+            <h4>Solution:</h4>
+            <p>As the lead engineer, I redesigned the service with resilience and efficiency in mind:</p>
+            <ul>
+                <li><strong>Robust Tech Stack:</strong>
+                    <ul>
+                        <li>Rebuilt the service using <strong>C#</strong> and <strong>.NET Core</strong>, integrating
+                            <strong>Polly</strong> for retry policies and fault tolerance.</li>
+                        <li>Configured <strong>HttpClient</strong> with custom timeouts to prevent hangs and ensure
+                            responsiveness.</li>
+                    </ul>
+                </li>
+                <li><strong>Failover Mechanism:</strong>
+                    <ul>
+                        <li>Implemented an <strong>automatic retry system</strong> with exponential backoff for failed
+                            API calls (up to 3 attempts).</li>
+                        <li>Integrated a <strong>secondary API provider</strong> as a fallback, seamlessly switching
+                            during outages using a priority-based routing algorithm.</li>
+                    </ul>
+                </li>
+                <li><strong>Optimization:</strong>
+                    <ul>
+                        <li>Cached exchange rates in <strong>Azure Redis Cache</strong> to reduce API calls and improve
+                            response times.</li>
+                        <li>Streamlined logging with <strong>Serilog</strong> to monitor API health and failover events
+                            in real time.</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h4>Impact:</h4>
+            <p>Transformed the service into a reliable, scalable solution:</p>
+            <ul>
+                <li><strong>Uptime Boost:</strong> Achieved <strong>99.9% service availability</strong> through retry
+                    and failover enhancements.</li>
+                <li><strong>Cost Efficiency:</strong> Reduced API overage costs by <strong>15%</strong> with intelligent
+                    caching and failover logic.</li>
+                <li><strong>Performance Gain:</strong> Cut average response time by <strong>35%</strong>, even under
+                    peak load.</li>
+                <li><strong>Team Enablement:</strong> Provided clear documentation and monitoring dashboards.</li>
+            </ul>
+
+        </div>
     </div>
 </body>
+
 </html>
