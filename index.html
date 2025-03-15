@@ -39,6 +39,7 @@
         .header-right {
             flex: 1;
             text-align: right;
+            font-size: 12px;
         }
 
         h1 {
@@ -52,7 +53,7 @@
             font-size: 18px;
             border-bottom: 1px solid #2c3e50;
             padding-bottom: 3px;
-            margin-top: 5px;
+            margin-top: 10px;
         }
 
         h3 {
@@ -61,7 +62,7 @@
             margin-bottom: 3px;
         }
 
-        h4{
+        h4 {
             font-size: 12px;
             margin: 6px 0;
         }
@@ -83,20 +84,30 @@
         }
 
         .job .details {
-            color: #666;
-            font-style: italic;
-            font-size: 12px;
+            color: #2c3e50;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .job ul {
+            padding-left: 32px;
+            margin-top: 10px;
         }
 
         .job .skills {
-            color: #666;
+            color: #2c3e50;
             font-size: 12px;
         }
 
-        .certifications ul {
+        .certifications ul,
+        .skills ul {
             columns: 2;
             -webkit-columns: 2;
             -moz-columns: 2;
+        }
+
+        .projects ul {
+            margin-bottom: 10px;
         }
 
         @media screen and (max-width: 600px) {
@@ -147,18 +158,25 @@
                 <p>Senior Engineer | Solutions Architect | Team Lead</p>
             </div>
             <div class="header-right">
-                <p>+27 81 589 3805 (GMT2+) | m.ahmod@live.co.za<br>Cape Town, South Africa<br>gist.github.com/Muhammad-1990<br>linkedin.com/in/muhammad-ahmod/</p>
+                <div>+27 81 589 3805</div>
+                <div>m.ahmod@live.co.za</div>
+                <div>Cape Town, South Africa</div>
+                <div>https://gist.github.com/Muhammad-1990/</div>
             </div>
+
         </div>
 
         <div class="summary">
             <h2>Summary</h2>
             <p>Proven Senior Software Engineer with over a decade of experience architecting scalable, high-performance
-                solutions in C#, .NET Core, and Azure. I excel at modernizing legacy systems, optimizing workflows, and
+                solutions in <strong>C#, .NET Core, and Azure</strong>. I excel at modernizing legacy systems,
+                optimizing workflows, and
                 leading cross-functional teams to deliver innovative, secure, and reliable applications. With 10
                 Microsoft certifications, including Azure Solutions Architect Expert, I bring deep technical expertise
-                and a proven track record of driving efficiency—such as slashing deployment times by 90% and boosting
-                app performance by 45%. Passionate about mentoring developers, fostering collaboration, and contributing
+                and a proven track record of driving efficiency—such as <strong>slashing deployment times by
+                    90%</strong> and <strong>boosting
+                    app performance by 45%</strong>. Passionate about mentoring developers, fostering collaboration, and
+                contributing
                 to open-source projects to advance technical excellence.</p>
         </div>
 
@@ -167,30 +185,31 @@
             <div class="job">
                 <h3>Senior Software Engineer Team Lead</h3>
                 <p class="details">February 2019 - Present | Novation Technologies Pty Ltd | Cape Town, South Africa</p>
-                <p class="skills"><strong> System Design | DevOps | CI/CD | Microservices | Docker | Event Sourcing | GRPC |
-                    RabbitMQ | Redis </strong></p>
+                <p class="skills">System Design | DevOps | CI/CD | Microservices | Docker | Event Sourcing | GRPC |
+                    RabbitMQ | Redis | Terraform | Grafana | OpenTelemetry</p>
                 <ul>
-                    <li>Directed migration of .NET Framework apps to .NET Core microservices with Docker, boosting
-                        scalability on Azure.</li>
-                    <li>Revamped Azure DevOps CI/CD pipelines from TFS, slashing deployment time by 90%.</li>
-                    <li>Mentored team in system design, delivering secure, high-quality solutions aligned with business
-                        goals.</li>
+                    <li>Directed migration of .NET Framework apps to .NET Core microservices with Docker and Terraform,
+                        boosting scalability on Azure and standardizing infrastructure-as-code.</li>
+                    <li>Revamped Azure DevOps CI/CD pipelines from TFS, slashing deployment time by 90%, and integrated
+                        Grafana for real-time pipeline monitoring.</li>
+                    <li>Mentored team in system design and OpenTelemetry, delivering secure, high-quality solutions with
+                        distributed tracing aligned with business goals.</li>
                     <li>Architected a payment gateway with DataCash, JudoPay, Barclays, and SWIFT, using GRPC and
                         RabbitMQ for reliable transactions.</li>
-                    <li>Enhanced performance by 45% via code optimization, TLS upgrades, Redis caching, and
-                        EventSourcing.</li>
+                    <li>Enhanced performance by 45% via code optimization, TLS upgrades, Redis caching, and Event
+                        Sourcing.</li>
                 </ul>
             </div>
             <div class="job">
                 <h3>Senior C# .NET Developer</h3>
                 <p class="details">February 2017 - January 2019 | AWCA Human Capital | Cape Town, South Africa</p>
-                <p class="skills"><strong>.NET Core | C# | Node.js | JavaScript | TypeScript | Angular | TFS | Git </strong></p>
+                <p class="skills">.NET Core | C# | Node.js | JavaScript | TypeScript | Angular | TFS | Git | ArgoCD</p>
                 <ul>
                     <li>Architected and implemented a high-performance API and SFTP integration with Barclays Faster
                         Payment System using .NET Core and C#, slashing transaction processing times by 95% and
                         enhancing operational efficiency.</li>
                     <li>Crafted and packaged NuGet interfaces, ensuring seamless data accuracy and synchronization
-                        across distributed systems.</li>
+                        across distributed systems with ArgoCD for deployment orchestration.</li>
                     <li>Leveraged Node.js to streamline backend processes, improving system responsiveness and
                         supporting scalable front-end integrations.</li>
                     <li>Orchestrated version control and CI/CD workflows with TFS and Git, accelerating development
@@ -201,7 +220,7 @@
                 <h3>Intermediate C# Developer</h3>
                 <p class="details">February 2015 - January 2017 | Kube Services - Cedar Connect | Cape Town, South
                     Africa</p>
-                <p class="skills"><strong> .NET Framework | MVC | C# | JavaScript | Windows Server | IIS | RabbitMQ </strong></p>
+                <p class="skills">.NET Framework | MVC | C# | JavaScript | Windows Server | IIS | RabbitMQ</p>
                 <ul>
                     <li>Developed and deployed Microsoft CRM 2015 plugins in C#, increasing lead accuracy and conversion
                         rates by 60%.</li>
@@ -214,7 +233,7 @@
         <div class="certifications">
             <h2>Certifications</h2>
             <ul>
-                <li>Azure Solutions Architect Expert</li>
+                <li><strong>Azure Solutions Architect Expert</strong></li>
                 <li>Azure Administrator Associate</li>
                 <li>Azure Network Engineer Associate</li>
                 <li>Azure Virtual Desktop Specialty</li>
@@ -222,14 +241,14 @@
                 <li>Azure AI Fundamentals</li>
                 <li>Azure Machine Learning Fundamentals</li>
                 <li>Azure Fundamentals</li>
-                <li>Microsoft Certified Professional</li>
+                <li><strong>Microsoft Certified Professional</strong></li>
                 <li>Microsoft® Certified Professional Developer: ASP.NET Developer 3.5</li>
                 <li>Microsoft® Certified Technology Specialist: .NET Framework 3.5, ASP.NET Applications</li>
-                <li>Foundational C# with Microsoft</li>
+                <li><strong>Foundational C# with Microsoft</strong></li>
                 <li>Advanced C Programming</li>
                 <li>Master Ethereum and Solidity Programming</li>
                 <li>Ethereum & Solidity: The Complete Developer's Guide</li>
-                <li>Prosci® Certified Change Practitioner</li>
+                <li><strong>Prosci® Certified Change Practitioner</strong></li>
             </ul>
         </div>
 
@@ -255,7 +274,8 @@
                 <li><strong>Modern Tech Stack:</strong>
                     <ul>
                         <li>Built a real-time, bi-directional conversion engine using <strong>C#</strong>,
-                            <strong>JavaScript</strong>, and <strong>AngularJS</strong>.</li>
+                            <strong>JavaScript</strong>, and <strong>AngularJS</strong>.
+                        </li>
                         <li>Implemented <strong>fixed caching policies</strong> to deliver up-to-the-minute exchange
                             rates, enhancing data freshness.</li>
                     </ul>
@@ -277,11 +297,13 @@
                 <li><strong>Revenue Growth:</strong> Enabled deployment across white-label platforms, unlocking new
                     revenue streams.</li>
                 <li><strong>User Engagement:</strong> Boosted <strong>click-through rates</strong> by
-                    <strong>25%</strong> through UX optimization (amplified by influencer partnerships).</li>
+                    <strong>25%</strong> through UX optimization (amplified by influencer partnerships).
+                </li>
                 <li><strong>Efficiency Gains:</strong> Simplified configuration for content creators with intuitive
                     default-value settings.</li>
                 <li><strong>Performance Leap:</strong> Reduced startup time by <strong>40%</strong> and achieved a
-                    <strong>4.5/5-star</strong> user satisfaction rating.</li>
+                    <strong>4.5/5-star</strong> user satisfaction rating.
+                </li>
             </ul>
 
 
@@ -294,7 +316,7 @@
                 <li><strong>API Instability:</strong> Frequent failures from the primary provider disrupted real-time
                     updates.</li>
                 <li><strong>Performance Lag:</strong> Lack of timeout handling caused delays and system hangs.</li>
-                <li><strong>Scalability Gaps:</strong> The service couldn’t adapt to growing demand or failover
+                <li><strong>Scalability Gaps:</strong> The service couldn't adapt to growing demand or failover
                     scenarios.</li>
             </ul>
 
@@ -304,7 +326,8 @@
                 <li><strong>Robust Tech Stack:</strong>
                     <ul>
                         <li>Rebuilt the service using <strong>C#</strong> and <strong>.NET Core</strong>, integrating
-                            <strong>Polly</strong> for retry policies and fault tolerance.</li>
+                            <strong>Polly</strong> for retry policies and fault tolerance.
+                        </li>
                         <li>Configured <strong>HttpClient</strong> with custom timeouts to prevent hangs and ensure
                             responsiveness.</li>
                     </ul>
@@ -339,7 +362,151 @@
                 <li><strong>Team Enablement:</strong> Provided clear documentation and monitoring dashboards.</li>
             </ul>
 
+            <h3>AI-Powered Candidate Management AI Agent</h3>
+            <h4>Challenge:</h4>
+            <p>Needed an intelligent system to streamline candidate and application management with real-time status
+                updates.</p>
+            <ul>
+                <li><strong>Manual Overhead:</strong> CRUD operations were slow and error-prone.</li>
+                <li><strong>Data Access:</strong> Limited querying capability hindered efficiency.</li>
+            </ul>
+            <h4>Solution:</h4>
+            <p>Developed an AI Agent using Microsoft.Extensions.AI and Semantic Kernel:</p>
+            <ul>
+                <li>Built an agent to query a JSON-LD HATEOAS API for CRUD operations on candidates and applications.
+                </li>
+                <li>Integrated natural language processing to simplify status updates and data retrieval.</li>
+            </ul>
+            <h4>Impact:</h4>
+            <p>Automated workflows and improved usability:</p>
+            <ul>
+                <li>Reduced manual CRUD time by 70%.</li>
+                <li>Enabled real-time status tracking with 95% accuracy.</li>
+            </ul>
+
+            <h3>Solana Blockchain Encryption DApp</h3>
+            <h4>Challenge:</h4>
+            <p>Required a secure method to encrypt and decrypt sensitive text and media data both off and on-chain.</p>
+            <ul>
+                <li><strong>Security:</strong> Traditional methods lacked decentralization.</li>
+                <li><strong>Accessibility:</strong> Needed seamless wallet integration.</li>
+            </ul>
+            <h4>Solution:</h4>
+            <p>Built a decentralized app (DApp) using Solana Web3 SDK and Phantom SDK:</p>
+            <ul>
+                <li>Implemented encryption/decryption logic on the Solana blockchain.</li>
+                <li>Integrated Phantom wallet for secure user authentication and key management.</li>
+            </ul>
+            <h4>Impact:</h4>
+            <p>Delivered a robust, decentralized solution:</p>
+            <ul>
+                <li>Achieved secure data handling with zero breaches.</li>
+            </ul>
+
         </div>
+
+        <div class="skills">
+            <h2>Skills</h2>
+            <h4>Languages & Frameworks</h4>
+            <ul>
+                <li>C#</li>
+                <li>.NET Core</li>
+                <li>.NET Framework</li>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>Angular</li>
+                <li>Node.js</li>
+                <li>C</li>
+                <li>C++</li>
+                <li>Python</li>
+                <li>Lua</li>
+            </ul>
+            <h4>Cloud & Infrastructure</h4>
+            <ul>
+                <li>Azure</li>
+                <li>Docker</li>
+                <li>Podman</li>
+                <li>Redis</li>
+                <li>Windows Server</li>
+                <li>IIS</li>
+                <li>Linux</li>
+                <li>Proxmox</li>
+                <li>Kasm</li>
+                <li>Vagrant</li>
+            </ul>
+            <h4>DevOps & Tools</h4>
+            <ul>
+                <li>Azure DevOps</li>
+                <li>CI/CD</li>
+                <li>Git</li>
+                <li>Gitea</li>
+                <li>TFS</li>
+                <li>GitHub Actions</li>
+                <li>Ansible</li>
+                <li>Terraform</li>
+                <li>Portainer</li>
+                <li>Polly</li>
+                <li>Serilog</li>
+            </ul>
+        </div>
+        <div class="skills">
+            <h2>Skills</h2>
+            <h4>Architecture</h4>
+            <ul>
+                <li>Microservices</li>
+                <li>Event Sourcing</li>
+                <li>GRPC</li>
+                <li>RabbitMQ</li>
+                <li>System Design</li>
+                <li>YARP</li>
+                <li>Traefik</li>
+                <li>HAProxy</li>
+            </ul>
+            <h4>Observability</h4>
+            <ul>
+                <li>OpenTelemetry</li>
+                <li>Grafana</li>
+                <li>Tempo</li>
+                <li>Loki</li>
+                <li>SEQ</li>
+                <li>Uptime Kuma</li>
+            </ul>
+            <h4>Documentation & APIs</h4>
+            <ul>
+                <li>OpenAPI</li>
+                <li>Swagger</li>
+                <li>Docusaurus</li>
+                <li>Confluence</li>
+            </ul>
+            <h4>Orchestration & Security</h4>
+            <ul>
+                <li>ArgoCD</li>
+                <li>Kestra</li>
+                <li>Teleport</li>
+            </ul>
+            <h4>AI & Machine Learning</h4>
+            <ul>
+                <li>AzureOpenAI</li>
+                <li>AzureML</li>
+                <li>Microsoft.Extensions.AI</li>
+                <li>Semantic Kernel</li>
+                <li>Langchain</li>
+                <li>TensorFlow</li>
+                <li>PyTorch</li>
+                <li>Scikit-Learn</li>
+            </ul>
+            <h4>Blockchain</h4>
+            <ul>
+                <li>Smart Contracts</li>
+                <li>Solana</li>
+                <li>Ethereum</li>
+                <li>XRPL</li>
+                <li>Metamask</li>
+                <li>Solidity</li>
+                <li>Phantom</li>
+            </ul>
+        </div>
+
     </div>
 </body>
 
